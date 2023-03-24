@@ -38,13 +38,15 @@ In no particular order:
 
 # Template project & tasks
 
-The template project serves the purpose of presenting various tasks for the candidate. The candidate can decide which tasks he wants to work on. There are no mandatory tasks. 
+The template project serves the purpose of presenting various tasks for the candidate. The candidate can decide which tasks he wants to work on. None of the tasks are mandatory. 
+Also, the project can be used by the candidate to present specific concepts or solution approaches. 
 
 ## Tasks
 
-In no particular order:
+Sugestions in no particular order:
 
 - Implement one ore more CRUD operations for the product resource 
+- Implement some kind of database persistence layer (in-memory, SQLite etc.)
 - Implement a data access repository for the product resource 
 - Implement a GET route with server side paging 
 - Add some kind of authentication and or authorization  
