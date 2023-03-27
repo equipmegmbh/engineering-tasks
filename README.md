@@ -4,7 +4,7 @@ Repository containing different topics and tasks for interviewing engineering ca
 # Scope
 
 The equipme interview is not based on trivia questions. We try to emulate real working conditions, by discussing various topics in the context of the candidate's role. 
-Also, we try to discuss challenges, which a engineering team will encounter when building a complex B2B SaaS application like equipme. 
+Also, we try to discuss challenges, which an engineering team will encounter when building a complex B2B SaaS application like equipme. 
 
 # Goals
 
@@ -32,21 +32,21 @@ In no particular order:
 - RESTfull services, routes, query parameters, operations
 - Relational database systems, set theory, set operations, constraints & relations
 - Data access, SQL, ORM-Mapper vs. pure SQL
-- Transactions, data conistency and data security
+- Transactions, data consistency and data security
 - Authentication and authorization in web based applications
-- Asynchronous operations (Tasks, async & await, events & delegates), race conditions & critical sections 
+- Asynchronous operations (tasks, async & await, events & delegates), race conditions & critical sections 
 - Distributed systems, queues, gRPC and messaging
 - Hosting, docker, configuration management, kubernetes
 - Infrastructure, DNS, TLS, Load balancing  
 
 # Template project & tasks
 
-The template project serves the purpose of presenting various tasks for the candidate. The candidate can decide which tasks he wants to work on. None of the tasks are mandatory. 
+The template project serves the purpose of presenting various tasks for the candidate. The candidate can decide which tasks they want to work on. None of the tasks are mandatory. 
 Also, the project can be used by the candidate to present specific concepts or solution approaches. 
 
 ## Tasks
 
-Sugestions in no particular order:
+Suggestions in no particular order:
 
 - Implement one ore more CRUD operations for the product resource 
 - Implement some kind of database persistence layer (in-memory, SQLite etc.)
@@ -54,3 +54,4 @@ Sugestions in no particular order:
 - Implement a GET route with server side paging 
 - Extend the data model with more entities (customer, supplier, order, historization etc.)
 - Add some kind of authentication and or authorization  
+
