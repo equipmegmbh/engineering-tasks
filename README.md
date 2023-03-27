@@ -13,20 +13,23 @@ Also, we try to discuss challenges, which a engineering team will encounter when
 - Ensure that the candidate has the necessary professional qualifications for the corresponding role
 - Checking whether the candidate has the necessary prerequisites to actively improve the equipme app
 - Ensure that the candidate is a professional fit for the team
+- Getting to know each other's working methods and philosophies
 
 ## Technical milestones and goals
 
-The candidate should discuss several questions with the team. There are no right answers(Or what we think what is right), but the pros and cons should be discussed and weighed.
+The candidate should discuss several questions with the team. We are not searching for the one right answer, but the pros and cons should be discussed and weighed.
 Also, the candidate should be able to discuss certain implementations and parts of the code which are marked in test project.
 
 # Discussion Topics
 
+The list of topics is intended only as a guideline for an interview discussion. 
+
 In no particular order:
 
 - Project structure and layers (Controllers, Logic, Data & Model)
-- Dependency injection & Interfaces
+- Dependency injection & interfaces
 - Naming philosophy (Variables, methods, classes, namespaces, projects)
-- RESTfull services, routes, query parameteres & POST bodies
+- RESTfull services, routes, query parameters, operations
 - Relational database systems, set theory, set operations, constraints & relations
 - Data access, SQL, ORM-Mapper vs. pure SQL
 - Transactions, data conistency and data security
@@ -49,4 +52,5 @@ Sugestions in no particular order:
 - Implement some kind of database persistence layer (in-memory, SQLite etc.)
 - Implement a data access repository for the product resource 
 - Implement a GET route with server side paging 
+- Extend the data model with more entities (customer, supplier, order, historization etc.)
 - Add some kind of authentication and or authorization  
