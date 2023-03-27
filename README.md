@@ -46,12 +46,12 @@ Also, the project can be used by the candidate to present specific concepts or s
 
 ## Tasks
 
-Suggestions in no particular order:
+Tasks can be found in the comments directly in the project. Additional ideas\suggestions:
 
 - Implement one ore more CRUD operations for the product resource 
 - Implement some kind of database persistence layer (in-memory, SQLite etc.)
 - Implement a data access repository for the product resource 
 - Implement a GET route with server side paging 
 - Extend the data model with more entities (customer, supplier, order, historization etc.)
-- Add some kind of authentication and or authorization  
+- Add some kind of authentication and or authorization concept   
 
