@@ -1,24 +1,24 @@
 # Equipme Engineering Interview
 Repository containing different topics and tasks for interviewing engineering candidates.
 
-# Scope
+# Interview Scope
 
 The equipme interview is not based on trivia questions. We try to emulate real working conditions, by discussing various topics in the context of the candidate's role. 
 Also, we try to discuss challenges, which an engineering team will encounter when building a complex B2B SaaS application like equipme. 
 
 # Goals
 
-## Overall goals:
+## General goals:
 
 - Ensure that the candidate has the necessary professional qualifications for the corresponding role
 - Checking whether the candidate has the necessary prerequisites to actively improve the equipme app
 - Ensure that the candidate is a professional fit for the team
 - Getting to know each other's working methods and philosophies
 
-## Technical milestones and goals
+## Technical goals
 
 The candidate should discuss several questions with the team. We are not searching for the one right answer, but the pros and cons should be discussed and weighed.
-Also, the candidate should be able to discuss certain implementations and parts of the code which are marked in test project.
+Also, the candidate should be able to discuss certain implementations and parts of the code.
 
 # Discussion Topics
 
