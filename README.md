@@ -82,7 +82,7 @@ To give the candidate a starting point, the following requirements are given:
 - The data model should be implemented with a relational database system (SQLite, SQL Server, PostgreSQL etc.)
 - The data access layer should be implemented with an ORM mapper (Entity Framework, TypeORM, Sequelize etc.) OR with pure SQL
 
-All tasks are optional. The candidate can decide which tasks they want to work on and to what extent. The most important thing is that the candidate can explain their solution and the decisions they made.
+All tasks are optional. The candidate can decide which tasks they want to work on and to what extent. The candidate should explain the solution and the decisions he or she made.
 Also we are interested in the candidate's opinion on the tasks and the project. As an example, the candidate could do the following:
 
 - Implement a pure GraphQL OR REST api and mock the data (Ignoring the data model and the data access layer) and focus on all aspects of GraphQL OR REST
