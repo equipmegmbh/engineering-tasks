@@ -51,9 +51,14 @@ The genaeral goal of the tasks is to discuss different aspects of the project an
 
 To give the candidate a starting point, the following requirements are given:
 
-- Implement a single tasks list or todo list
-- The api should be implemented as a RESTfull OR GraphQl service
-- The api should be implemented with ASP.NET Core or Node.js
+- Implement a simple task\todo management list with the following features:
+  - Create a new task
+  - Update an existing task
+  - Delete an existing task
+  - List all tasks
+- Implement\Design additional entites like users, comments etc.
+- The api should be implemented as a RESTfull OR GraphQL service
+- The api should be implemented with .NET 7.0 Core or nodejs >= 18.17.0
 - The client should be implemented as a single page application (SPA)
 - The client should be implemented with React, Angular or Vue
 - The client should be implemented with TypeScript
@@ -64,8 +69,8 @@ To give the candidate a starting point, the following requirements are given:
 All tasks are optional. The candidate can decide which tasks they want to work on and to what extent. The most important thing is that the candidate can explain their solution and the decisions they made.
 Also we are interested in the candidate's opinion on the tasks and the project. As an example, the candidate could do the following:
 
-- Implement a pure GraphQl api and mock the data (Ignoring the data model and the data access layer)
-- Focus on the data model and the data access layerand api and ignore the client
+- Implement a pure GraphQL api and mock the data (Ignoring the data model and the data access layer) and focus on all aspects of GraphQL
+- Focus on the data model and the data access layer and api and ignore the client
 - Implement the client and the api and mock the data (Ignoring the data model and the data access layer)
 - Implement a simple full stack solution by focusing on a single task like "Create a new task" and show the result in the client
 
