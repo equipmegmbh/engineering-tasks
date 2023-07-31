@@ -72,8 +72,8 @@ To give the candidate a starting point, the following requirements are given:
   - Update an existing task
   - Delete an existing task
   - List all tasks
-- Implement\Design additional entites like users, comments etc.
-- The api should be implemented as a RESTfull OR GraphQL service
+- Implement\Design additional entities like users, comments etc.
+- The api should be implemented as a RESTful OR GraphQL service
 - The api should be implemented with .NET 7.0 Core or nodejs >= 18.17.0
 - The client should be implemented as a single page application (SPA)
 - The client should be implemented with React, Angular or Vue
