@@ -27,9 +27,10 @@ The list of topics is intended only as a guideline for an interview discussion.
 In no particular order:
 
 - Project structure and layers (Controllers, Logic, Data & Model)
-- Dependency injection & interfaces
+- Dependency injection & interfaces, coupling & cohesion
 - Naming philosophy (Variables, methods, classes, namespaces, projects)
 - RESTfull services, routes, query parameters, operations
+- GraphQL, pros & cons, use cases
 - Relational database systems, set theory, set operations, constraints & relations
 - Data access, SQL, ORM-Mapper vs. pure SQL
 - Transactions, data consistency and data security
@@ -46,12 +47,34 @@ Also, the project can be used by the candidate to present specific concepts or s
 
 ## Tasks
 
-Tasks can be found in the comments directly in the project. Additional ideas\suggestions:
+The genaeral goal of the tasks is to discuss different aspects of the project and the code. The tasks are not intended to be solved in a specific way. 
 
-- Implement one ore more CRUD operations for the product resource 
-- Implement some kind of database persistence layer (in-memory, SQLite etc.)
-- Implement a data access repository for the product resource 
+To give the candidate a starting point, the following requirements are given:
+
+- Implement a single tasks list or todo list
+- The api should be implemented as a RESTfull OR GraphQl service
+- The api should be implemented with ASP.NET Core or Node.js
+- The client should be implemented as a single page application (SPA)
+- The client should be implemented with React, Angular or Vue
+- The client should be implemented with TypeScript
+- The client should be implemented with a state management library (Redux, NgRx, Vuex etc.)
+- The data model should be implemented with a relational database system (SQLite, SQL Server, PostgreSQL etc.)
+- The data access layer should be implemented with an ORM mapper (Entity Framework, TypeORM, Sequelize etc.) OR with pure SQL
+
+All tasks are optional. The candidate can decide which tasks they want to work on and to what extent. The most important thing is that the candidate can explain their solution and the decisions they made.
+Also we are interested in the candidate's opinion on the tasks and the project. As an example, the candidate could do the following:
+
+- Implement a pure GraphQl api and mock the data (Ignoring the data model and the data access layer)
+- Focus on the data model and the data access layerand api and ignore the client
+- Implement the client and the api and mock the data (Ignoring the data model and the data access layer)
+- Implement a simple full stack solution by focusing on a single task like "Create a new task" and show the result in the client
+
+Additional ideas\suggestions:
+
+- Implement one ore more CRUD operations for the task or user resource 
+- Implement some kind of database persistence layer (in-memory, SQLite, PostgreSQL etc.)
+- Implement a data access repository for the task resource 
 - Implement a GET route with server side paging 
-- Extend the data model with more entities (customer, supplier, order, historization etc.)
+- Design a data model with more entities (customer, user, attachements, historization etc.)
 - Add some kind of authentication and or authorization concept   
 
