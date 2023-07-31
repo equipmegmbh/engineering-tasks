@@ -61,7 +61,7 @@ Both projects contain the following folders:
 - docs: Contains the documentation
 - database: Contains the data model and the data access layer
 
-## Tasks
+## Project Tasks
 
 The genaeral goal of the tasks is to discuss different aspects of the project and the code. The tasks are not intended to be solved in a specific way. 
 
@@ -85,14 +85,27 @@ To give the candidate a starting point, the following requirements are given:
 All tasks are optional. The candidate can decide which tasks they want to work on and to what extent. The most important thing is that the candidate can explain their solution and the decisions they made.
 Also we are interested in the candidate's opinion on the tasks and the project. As an example, the candidate could do the following:
 
-- Implement a pure GraphQL api and mock the data (Ignoring the data model and the data access layer) and focus on all aspects of GraphQL
+- Implement a pure GraphQL OR REST api and mock the data (Ignoring the data model and the data access layer) and focus on all aspects of GraphQL OR REST
 - Focus on the data model and the data access layer and api and ignore the client
 - Implement the client and the api and mock the data (Ignoring the data model and the data access layer)
 - Implement a simple full stack solution by focusing on a single task like "Create a new task" and show the result in the client
 
-Additional ideas\suggestions:
+### Project Scope
 
-- Implement one ore more CRUD operations for the task or user resource 
+The scope of the project\solution is not limited to the given requirements. The candidate can extend the project\solution with additional features and ideas. Also it
+is important to consider the following aspects:
+
+- Your ToDo-App will be used by A LOT of users!
+- Your ToDo-App will be used by A LOT of users at the same time!
+- Your ToDo-App will be used by A LOT of users at the same time on different devices!
+- Your ToDo-App will be used by A LOT of users at the same time on different devices in different timezones!
+- Your ToDo-App will be used by A LOT of users at the same time on different devices in different timezones in different countries!
+- Your ToDo-App will be used by A LOT of users at the same time on different devices in different timezones in different countries on different continents!
+- Your ToDo-App will be used by A LOT of users at the same time on different devices in different timezones in different countries on different continents on different planets (Ok...maybe that was too much)! 
+
+### Additional ideas and suggestions
+
+- Implement one ore more CRUD operations for the task or user resource\entity 
 - Implement some kind of database persistence layer (in-memory, SQLite, PostgreSQL etc.)
 - Implement a data access repository for the task resource 
 - Implement a GET route with server side paging 
