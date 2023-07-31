@@ -1,4 +1,4 @@
-# Equipme Backend Engineering Interview
+# Equipme Engineering Interview
 Repository containing different topics and tasks for interviewing engineering candidates.
 
 # Scope
@@ -39,11 +39,27 @@ In no particular order:
 - Distributed systems, queues, gRPC and messaging
 - Hosting, docker, configuration management, kubernetes
 - Infrastructure, DNS, TLS, Load balancing  
+- Testing, unit tests, integration tests, end-to-end tests, code coverage, code quality
 
 # Template project & tasks
 
 The template project serves the purpose of presenting various tasks for the candidate. The candidate can decide which tasks they want to work on. None of the tasks are mandatory. 
 Also, the project can be used by the candidate to present specific concepts or solution approaches. 
+
+## Projects
+
+The template project consists of the following projects:
+
+- .net: Contains the template project based on the .NET Framework 7.0
+- node: Contains the template project based on nodejs >= 18.17.0
+
+Both projects contain the following folders:
+
+- api: Contains the api project
+- client: Contains the frontend project
+- test: Contains the test project
+- docs: Contains the documentation
+- database: Contains the data model and the data access layer
 
 ## Tasks
 
@@ -81,5 +97,6 @@ Additional ideas\suggestions:
 - Implement a data access repository for the task resource 
 - Implement a GET route with server side paging 
 - Design a data model with more entities (customer, user, attachements, historization etc.)
-- Add some kind of authentication and or authorization concept   
+- Add some kind of authentication and or authorization concept for the client and\or api  
+- Add a test and quality assurance concept (unit tests, integration tests, end-to-end tests, code coverage, code quality etc.)
 
