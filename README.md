@@ -16,6 +16,7 @@ Evaluate the candidate’s ability to design scalable, maintainable frontend/bac
 - State management strategy (NgRx, Component Store, Signals, RxJS-only)
 - Shared UI libraries and design systems
 - Dependency injection, interfaces, coupling & cohesion
+- Internationalization
 
 ### Data Flow & State
 
@@ -35,6 +36,7 @@ Evaluate the candidate’s ability to design scalable, maintainable frontend/bac
 
 - XSS prevention
 - Authentication & authorization handling
+- Oauth Vs. alternatives
 - Token storage strategy
 
 ### Testing & Maintainability
@@ -45,8 +47,24 @@ Evaluate the candidate’s ability to design scalable, maintainable frontend/bac
 
 ### Frameworks & Concepts
 
-- Angular: Singals vs. RxJS
-- Angular: Modules and  (standalon)-components
+#### Angular
+
+- Singals vs. RxJS
+- Modules 
+- Components, services, directives & Data Binding
+- Reactive vs. Template driven forms
+- Lifecycle hooks
+- W3C accessibillity
+- NgRx
+- Observalbles
+- Http interceptors
+- Routing in SPAs 
+- Internationalization
+
+### Culture & Philosophy
+
+- Working in a startup environment
+- 
 
 ### Follow-up Scenarios
 
