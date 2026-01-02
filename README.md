@@ -64,15 +64,19 @@ Evaluate the candidate’s ability to design scalable, maintainable frontend/bac
 ### Culture & Philosophy
 
 - Working in a startup environment
-- 
+- MVP & Iterate
+- Speed VS. Quality and Maintainabillity  
 
 ### Follow-up Scenarios
 
-“What changes if this app must work offline?”
+Describe and design a "cart" and "order" module where a user can review his configured service and place a batch order.
 
-“What if different teams own different features?”
+Requirements:
 
-“How would you migrate a legacy AngularJS app?”
+- A service configuration consists of multiple entities like an offer, options and assignments
+- Service can have dependencies to other services in the cart (Base services for example)
+- How do you evaluate business rules and present the state to the user?
+- What happens when you place a really big order (>1000 positions)
 
 ## Backend
 
@@ -91,6 +95,10 @@ Evaluate the candidate’s ability to design scalable, maintainable frontend/bac
 - Testing, unit tests, integration tests, end-to-end tests, code coverage, code quality
 
 
-### Additional ideas and suggestions
+## Senior & Solution Engineer
 
+### System Architecture & Design
+
+- Monolith vs. microservices: what has changed your opinion over time?
+- Database schema management (Breaking changes, migration, management)
 
