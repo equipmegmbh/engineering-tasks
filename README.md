@@ -102,3 +102,112 @@ Requirements:
 - Monolith vs. microservices: what has changed your opinion over time?
 - Database schema management (Breaking changes, migration, management)
 
+# Code Task
+
+```
+// user-list.component.ts
+import { Component, OnInit } from '@angular/core';
+import { UserService } from '../services/user.service';
+
+@Component({
+  selector: 'app-user-list',
+  template: `
+    <div>
+      <h2>Users</h2>
+
+      <input
+        type="text"
+        placeholder="Search users"
+        (input)="onSearch($event.target.value)"
+      />
+
+      <ul>
+        <li *ngFor="let user of users">
+          {{ user.name }} – {{ user.email }}
+        </li>
+      </ul>
+    </div>
+  `
+})
+
+export class UserListComponent implements OnInit {
+  users: any[] = [];
+  searchTerm = '';
+
+  constructor(private userService: UserService) {}
+
+  ngOnInit(): void {
+    this.loadUsers();
+  }
+
+  loadUsers(): void {
+    this.userService.getUsers().subscribe(users => {
+      this.users = users.filter(u =>
+        u.name.toLowerCase().includes(this.searchTerm.toLowerCase())
+      );
+    });
+  }
+
+  onSearch(term: string): void {
+    this.searchTerm = term;
+    this.loadUsers();
+  }
+}
+```
+
+```
+// user.service.ts
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+
+@Injectable({ providedIn: 'root' })
+export class UserService {
+  constructor(private http: HttpClient) {}
+
+  getUsers() {
+    return this.http.get<any[]>('/api/users');
+  }
+}
+```
+
+1. Architecture & Data Flow
+
+What are the problems with calling getUsers() on every keystroke?
+
+How would you redesign the data flow to avoid unnecessary HTTP requests?
+
+Should filtering happen in the component, service, or backend?
+
+2. Performance & Change Detection
+
+How does this behave with a large user list?
+
+What change detection strategy would you choose here and why?
+
+Would OnPush help? What changes would be required?
+
+3. RxJS & Subscriptions
+
+What issues do you see with the current subscription handling?
+
+How would you prevent memory leaks?
+
+Would you use switchMap, debounceTime, or shareReplay here?
+
+4. Typing & Code Quality
+
+What are the risks of using any[]?
+
+How would you improve type safety?
+
+How would you make this component more testable?
+
+5. UX & Edge Cases
+
+How does this handle slow networks or errors?
+
+How would you show loading and error states?
+
+What happens if two requests return out of order?
+
+
