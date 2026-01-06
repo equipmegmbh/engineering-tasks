@@ -174,11 +174,12 @@ export class UserService {
 
 1. Architecture & Data Flow
 
-- What does the code do?
-- 
+- What does the code do? 
 - What are the problems with calling getUsers() on every keystroke?
 - How would you redesign the data flow to avoid unnecessary HTTP requests?
 - Should filtering happen in the component, service, or backend?
+- Http client: Can you explain the basic structure of an http request (verbs, body, parameter, headers)?
+- 
 
 2. Performance & Change Detection
 
