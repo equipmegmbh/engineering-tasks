@@ -34,10 +34,12 @@ Evaluate the candidate’s ability to design scalable, maintainable frontend/bac
 
 ### Security
 
-- XSS prevention
+- Attack Surface Vectors in SPAs
+- OWASP Top 10
+- Broken Access Control
+- Cross Site Scripting (XSS) prevention
 - Authentication & authorization handling
 - Oauth Vs. alternatives
-- Token storage strategy
 
 ### Testing & Maintainability
 
@@ -172,42 +174,44 @@ export class UserService {
 
 1. Architecture & Data Flow
 
-What are the problems with calling getUsers() on every keystroke?
-
-How would you redesign the data flow to avoid unnecessary HTTP requests?
-
-Should filtering happen in the component, service, or backend?
+- What does the code do?
+- 
+- What are the problems with calling getUsers() on every keystroke?
+- How would you redesign the data flow to avoid unnecessary HTTP requests?
+- Should filtering happen in the component, service, or backend?
 
 2. Performance & Change Detection
 
-How does this behave with a large user list?
-
-What change detection strategy would you choose here and why?
-
-Would OnPush help? What changes would be required?
+- How does this behave with a large user list?
+- What change detection strategy would you choose here and why?
+- Would OnPush help? What changes would be required?
 
 3. RxJS & Subscriptions
 
-What issues do you see with the current subscription handling?
-
-How would you prevent memory leaks?
-
-Would you use switchMap, debounceTime, or shareReplay here?
+- What issues do you see with the current subscription handling?
+- How would you prevent memory leaks?
+- Would you use switchMap, debounceTime, or shareReplay here?
 
 4. Typing & Code Quality
 
-What are the risks of using any[]?
-
-How would you improve type safety?
-
-How would you make this component more testable?
+- What are the risks of using any[]?
+- How would you improve type safety?
+- How would you make this component more testable?
 
 5. UX & Edge Cases
 
-How does this handle slow networks or errors?
+- How does this handle slow networks or errors?
+- How would you show loading and error states?
+- What happens if two requests return out of order?
+- Expected Senior-Level Improvements (Not Shown to Candidate)
 
-How would you show loading and error states?
+**A strong candidate may suggest:**
 
-What happens if two requests return out of order?
+- Converting the component to observable-driven state
+- Debouncing search input with RxJS
+- Caching results in the service
+- Introducing OnPush change detection
+- Using async pipe instead of manual subscriptions
+- Separating server state from view state
 
 
