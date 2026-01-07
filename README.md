@@ -54,6 +54,7 @@ Evaluate the candidate’s ability to design scalable, maintainable frontend/bac
 - Singals vs. RxJS
 - Modules 
 - Components, services, directives & Data Binding
+- Simple components VS. smart components
 - Reactive vs. Template driven forms
 - Lifecycle hooks
 - W3C accessibillity
@@ -62,6 +63,19 @@ Evaluate the candidate’s ability to design scalable, maintainable frontend/bac
 - Http interceptors
 - Routing in SPAs 
 - Internationalization
+
+### TypeScript
+
+- TypeScript VS. JavaScript
+
+### CSS/SCCS
+
+### Patterns & Best-Practices
+
+- DRY
+- KISS
+- YAGNI
+- SOLID
 
 ### Culture & Philosophy
 
@@ -174,11 +188,11 @@ export class UserService {
 
 1. Architecture & Data Flow
 
-- What does the code do?
-- 
+- What does the code do? 
 - What are the problems with calling getUsers() on every keystroke?
 - How would you redesign the data flow to avoid unnecessary HTTP requests?
 - Should filtering happen in the component, service, or backend?
+- Http client: Can you explain the basic structure of an http request (verbs, body, parameter, headers)?
 
 2. Performance & Change Detection
 
@@ -194,7 +208,7 @@ export class UserService {
 
 4. Typing & Code Quality
 
-- What are the risks of using any[]?
+- What are the risks of using any[]? (Type-saftey, access modifier)
 - How would you improve type safety?
 - How would you make this component more testable?
 
