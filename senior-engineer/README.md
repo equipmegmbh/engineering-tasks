@@ -7,41 +7,44 @@ Evaluate the candidate’s ability to design scalable, maintainable frontend/bac
 
 # Discussion Topics
 
-## Frontend
+## Architecture
 
-### Architecture
-
-- Application structure (feature-based vs. layered vs. domain-driven)
-- Micro-frontends vs. monolith: when and why
-- State management strategy (NgRx, Component Store, Signals, RxJS-only)
-- Shared UI libraries and design systems
+- Application structure (feature-based vs. layered vs. domain-driven, vertical sliced architecture)
+- Micro-Service VS. Monolith VS. Modular Monolyth
 - Dependency injection, interfaces, coupling & cohesion
 - Internationalization
+- Multi Tenant Architecture in SaaS Applications
 
-### Data Flow & State
+## Patterns & Best-Practices
+
+- DRY
+- KISS
+- YAGNI
+- SOLID
+
+## Data Flow & State
 
 - Server vs. client state separation
-- Caching strategies (HTTP caching, in-memory, stale-while-revalidate)
+- Caching when and why, Caching strategies
 - Handling real-time updates (polling, WebSockets)
 - Async and await pattern
 
-### Performance
+## Performance
 
-- Lazy loading modules and standalone components
-- Change detection strategy (Default vs. OnPush)
-- Large lists (virtual scrolling)
-- Bundle size optimization
+- Biggest impact on performance (Layers)
+- Known bottlenecks and issues regarding performance 
+- General strategies when handling performance issues 
 
-### Security
+## Security
 
-- Attack Surface Vectors in SPAs
+- Attack Surface Vectors in SPAs and APIs
 - OWASP Top 10
 - Broken Access Control
 - Cross Site Scripting (XSS) prevention
-- Authentication & authorization handling
-- Oauth Vs. alternatives
+- Authentication & authorization handling and strategies
+- OpenId & OAuth 2.0
 
-### Testing & Maintainability
+## Testing & Maintainability
 
 - Unit vs. integration vs. e2e testing
 - Versioning APIs and backward compatibility
@@ -57,6 +60,7 @@ Evaluate the candidate’s ability to design scalable, maintainable frontend/bac
 - Simple components VS. smart components
 - Reactive vs. Template driven forms
 - Lifecycle hooks
+- State management strategy (NgRx, Component Store, Signals, RxJS-only)
 - W3C accessibillity
 - NgRx
 - Observalbles
@@ -67,15 +71,6 @@ Evaluate the candidate’s ability to design scalable, maintainable frontend/bac
 ### TypeScript
 
 - TypeScript VS. JavaScript
-
-### CSS/SCCS
-
-### Patterns & Best-Practices
-
-- DRY
-- KISS
-- YAGNI
-- SOLID
 
 ### Culture & Philosophy
 
