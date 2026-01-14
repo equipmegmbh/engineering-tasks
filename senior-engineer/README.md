@@ -50,6 +50,15 @@ Evaluate the candidate’s ability to design scalable, maintainable frontend/bac
 - Versioning APIs and backward compatibility
 - Handling technical debt over time
 
+## Product Management & Software Lifecycle
+
+- Working with product management & product owners
+- Managing multiple requirements & tasks
+- Managing complex features with multiple team members
+- Git & GitHub: Branch- and Merge strategy, Pull requests
+- Release strategy
+- Bug- and Hotfixes  
+
 ### Frameworks & Concepts
 
 #### Angular
@@ -104,7 +113,6 @@ Requirements:
 - Hosting, docker, configuration management, kubernetes
 - Infrastructure, DNS, TLS, Load balancing  
 - Testing, unit tests, integration tests, end-to-end tests, code coverage, code quality
-
 
 ## Senior & Solution Engineer
 
